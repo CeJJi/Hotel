@@ -42,6 +42,7 @@ int	main()
     // }
 
 
+
     cout << endl << s1 << endl;
     cout << "Int is: " << a << " " << b << " " << c << endl << endl;
 }
