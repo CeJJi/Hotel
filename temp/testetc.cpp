@@ -1,3 +1,209 @@
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int logic = 0;
+//     string temp01, temp02 = "A" , temp03 = "A";
+//     char wait;
+//     // temp01 = "A1001";
+//     // if (temp01 != temp02)
+//     // {
+//     //     temp02 = temp01;
+//     //     if (temp01 != temp03)
+//     //     {
+//     //         temp03 = temp01;
+//     //     }
+//     //     else
+//     //     {
+//     //         logic = logic + 1;
+//     //     }
+//     // }
+//     // cout << temp01 << " " << temp02 << " " << temp03 << " " << endl;
+//     // cin.get(wait);
+//     // cout << "Press Enter to continue" << endl;
+//     // cin.get(wait);
+//     // temp01 = "A1002";
+//     // if (temp01 != temp02)
+//     // {
+//     //     temp02 = temp01;
+//     //     if (temp01 != temp03)
+//     //     {
+//     //         temp03 = temp01;
+//     //     }
+//     //     else
+//     //     {
+//     //         logic = logic + 1;
+//     //     }
+//     // }
+//     // cout << temp01 << " " << temp02 << " " << temp03 << " " << endl;
+//     // cin.get(wait);
+//     // cout << "Press Enter to continue" << endl;
+//     // cin.get(wait);
+//     temp01 = "A1002";
+//     if (temp02 == "A")
+//     {
+//         temp02 = temp01;
+//     }
+//     else
+//     {
+//         if (temp03 == "A")
+//         {
+//             temp03 = temp01;
+//         }
+//         else
+//         {
+//             if (temp02 == temp03)
+//             {
+//                 temp02 = temp01;
+//             }
+//             else
+//             {
+//                 if (temp01 != temp02 && temp01 != temp03)
+//                 {
+//                     logic = 3;
+//                 }
+//             }
+//         }
+//     }
+//     cout << temp01 << " " << temp02 << " " << temp03 << " " << logic << endl;
+//     cin.get(wait);
+//     cout << "Press Enter to continue" << endl;
+//     cin.get(wait);
+
+//     temp01 = "A1003";
+//     if (temp02 == "A")
+//     {
+//         temp02 = temp01;
+//     }
+//     else
+//     {
+//         if (temp03 == "A")
+//         {
+//             temp03 = temp01;
+//         }
+//         else
+//         {
+//             if (temp02 == temp03)
+//             {
+//                 temp02 = temp01;
+//             }
+//             else
+//             {
+//                 if (temp01 != temp02 && temp01 != temp03)
+//                 {
+//                     logic = 3;
+//                 }
+//             }
+//         }
+//     }
+//     cout << temp01 << " " << temp02 << " " << temp03 << " " << logic << endl;
+//     cin.get(wait);
+//     cout << "Press Enter to continue" << endl;
+//     cin.get(wait);
+
+//     temp01 = "A1001";
+//     if (temp02 == "A")
+//     {
+//         temp02 = temp01;
+//     }
+//     else
+//     {
+//         if (temp03 == "A")
+//         {
+//             temp03 = temp01;
+//         }
+//         else
+//         {
+//             if (temp02 == temp03)
+//             {
+//                 temp02 = temp01;
+//             }
+//             else
+//             {
+//                 if (temp01 != temp02 && temp01 != temp03)
+//                 {
+//                     logic = 3;
+//                 }
+//             }
+//         }
+//     }
+//     cout << temp01 << " " << temp02 << " " << temp03 << " " << logic << endl;
+//     cin.get(wait);
+//     cout << "Press Enter to continue" << endl;
+//     cin.get(wait);
+
+//     temp01 = "A1002";
+//     if (temp02 == "A")
+//     {
+//         temp02 = temp01;
+//     }
+//     else
+//     {
+//         if (temp03 == "A")
+//         {
+//             temp03 = temp01;
+//         }
+//         else
+//         {
+//             if (temp02 == temp03)
+//             {
+//                 temp02 = temp01;
+//             }
+//             else
+//             {
+//                 if (temp01 != temp02 && temp01 != temp03)
+//                 {
+//                     logic = 3;
+//                 }
+//             }
+//         }
+//     }
+//     cout << temp01 << " " << temp02 << " " << temp03 << " " << logic << endl;
+//     cin.get(wait);
+//     cout << "Press Enter to continue" << endl;
+//     cin.get(wait);
+//     if (logic = 3)
+//     {
+//         cout << "Can more than 2 room";
+//     }
+// }
+// for _getch
+// #include <iostream> 
+// #include <string>
+// #include <conio.h> 
+// #include <ctype.h>
+// using namespace std;
+// string get_word();
+// int main()
+// {
+//     get_word();
+
+// }
+// string get_word()
+// {
+//     string word;
+//     cout << "grgr";
+//     cin >> word;
+//     char c = _getch();
+//     isalnum('word');
+//     cout << c;
+//     return word;
+// }
+// #include<iostream>
+// #include<string.h>
+
+// using namespace std;
+// int main() {
+//    char str[] = "3257fg";
+
+//    for (int i = 0; i < strlen(str); i++) {
+//       if(isdigit(str[i]))
+//       cout<<"The string contains int"<<endl;
+//       else
+//       cout<<"The string does not contain int"<<endl;
+//    }
+//    return 0;
+// }
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -32,19 +238,19 @@ int main()
         {
             case1(Filename1,Filename2);
         }
-        else if (reselect == "2")
+        if (reselect == "2")
         {
             case2(Filename1,Filename2);
         }
-        else if (reselect == "3")
+        if (reselect == "3")
         {
             case3(Filename1,Filename2);
         }
-        else if (reselect == "4")
+        if (reselect == "4")
         {
             case4(Filename1,Filename2);
         }
-        else if (reselect != "0")
+        if (reselect != "0")
         {
             cout << "Please select 1 - 4" << endl;
             char wait;
@@ -107,6 +313,7 @@ void case1(string Filename1, string Filename2)
             cout << "* Enter 0 to go main menu" << endl;
             cout << "Enter number : ";
             cin >> v;
+
             
             int count1 = 0;
             for (int i=0; i<v.length(); i++) {
@@ -114,13 +321,12 @@ void case1(string Filename1, string Filename2)
                 count1++;
             }
             if(count1>0){
-                //cout<<"The value "<<v<<" is Integer"<<endl;
+                cout<<"The value "<<v<<" is Integer"<<endl;
                 num = stoi(v);
             }
                 
             else{
-                //cout<<"The value "<<v<<" is Not Integer"<<endl;
-                num = 21;
+                cout<<"The value "<<v<<" is Not Integer"<<endl;
             }
 
             if(num == 0)
@@ -191,27 +397,10 @@ void case2(string Filename1, string Filename2)
         InFile.close();
         do
         {
-            string v;
             loop = true;
             cout << "* Enter 0 to go main menu" << endl;
             cout << "Enter number : ";
-            cin >> v;
-
-            int count1 = 0;
-            for (int i=0; i<v.length(); i++) {
-            if (isdigit(v[i]) == true)
-                count1++;
-            }
-            if(count1>0){
-                //cout<<"The value "<<v<<" is Integer"<<endl;
-                num = stoi(v);
-            }
-                
-            else{
-                //cout<<"The value "<<v<<" is Not Integer"<<endl;
-                num = 21;
-            }
-
+            cin >> num;
             if(num == 0)
             {
                 loop = false;
@@ -240,23 +429,7 @@ void case2(string Filename1, string Filename2)
                     loopinloop = true;
                     cout << "* Enter 0 to go main menu" << endl;
                     cout << "Enter number : ";
-                    cin >> v;
-
-                    count1 = 0;
-                    for (int i=0; i<v.length(); i++) {
-                    if (isdigit(v[i]) == true)
-                        count1++;
-                    }
-                    if(count1>0){
-                        //cout<<"The value "<<v<<" is Integer"<<endl;
-                        number = stoi(v);
-                    }
-                        
-                    else{
-                        //cout<<"The value "<<v<<" is Not Integer"<<endl;
-                        number = 991;
-                    }
-
+                    cin >> number;
                     if(number == 0)
                     {
                         loopinloop = false;
@@ -289,27 +462,10 @@ void case2(string Filename1, string Filename2)
                             cout << "===============================" << endl;
                             do
                             {
-                                
                                 loopinloopinloop = true;
                                 cout << "* Enter 0 to go main menu" << endl;
                                 cout << "Enter night : ";
-                                cin >> v;
-
-                                count1 = 0;
-                                for (int i=0; i<v.length(); i++) {
-                                if (isdigit(v[i]) == true)
-                                    count1++;
-                                }
-                                if(count1>0){
-                                    //cout<<"The value "<<v<<" is Integer"<<endl;
-                                    numeric = stoi(v);
-                                }
-                                    
-                                else{
-                                    //cout<<"The value "<<v<<" is Not Integer"<<endl;
-                                    numeric = 99;
-                                }
-
+                                cin >> numeric;
                                 if(numeric == 0)
                                 {
                                     loopinloopinloop = false;

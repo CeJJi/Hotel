@@ -50,6 +50,7 @@
         "typeinfo": "cpp",
         "chrono": "cpp",
         "cstring": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "bitset": "cpp"
     }
 }
